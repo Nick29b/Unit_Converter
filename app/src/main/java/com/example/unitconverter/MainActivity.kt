@@ -69,7 +69,7 @@ fun UnitConverter() {
         val inputValueDouble = inputValue.toDoubleOrNull() ?: 0.0
         val result = (
                 (inputValueDouble * conversionFactor.value) * 1.00 / oConversionFactor.value)
-        outputValue = "%.3f".format(result)
+        outputValue = "%.2f".format(result)
     }
 
 
